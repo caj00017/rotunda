@@ -6,17 +6,25 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>
+          Rotunda Family Blog
+        </h1>
+        <ul>
+          <li>This site is a work in progress.</li>
+          <li>Come back later to see what's new!</li>
+        </ul>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Created by{' '}
+          <a
+            className="App-link"
+            href="https://cjones.dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            >
+              Chris Jones
+          </a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
     </div>
   );
